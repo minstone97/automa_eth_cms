@@ -2,8 +2,8 @@ import time
 import pyupbit
 import datetime
 
-access = "ue67fMbyeXuaSU2LpdEmMxNgFMqqPcsDWEALoVMB"
-secret = "alSiNsZv0wEtlxlQoPWz6beutKahN4N2HJ6S4oqy"
+access = "2KJcRn1bxxGtHvEBC6wMYxsr55nFJxKODxpZegSx"
+secret = "A1IpYreERalHLZCiblcnAZE10zehXx3dd3iu7cyY"
 
 def get_start_time(ticker):
     """시작 시간 조회"""
