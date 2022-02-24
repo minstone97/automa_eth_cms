@@ -60,7 +60,7 @@ while True:
             print("Golden Cross observed")
             if krw > 5000:
                 print("Now is 59bun and Golden Cross appeared so...")
-                upbit.buy_market_order("KRW-ETH", krw*0.99)
+                upbit.buy_market_order("KRW-ETH", krw*0.999)
                 current_price = get_current_price("KRW-ETH")
                 krw = get_balance("KRW")
                 eth = get_balance("KRW-ETH")
@@ -72,7 +72,7 @@ while True:
         if ma20 > ma10:
             print("Dead Cross obeserved")
             print("Now is 59bun and Dead Cross appeared so...")
-            current_price = get_current_price("KRW-ETH")
+            current_price = get_current_price("KRW-ETH", eth*0.999)
             krw = get_balance("KRW")
             eth = get_balance("ETH")
             print("MA10 is:",ma10)
